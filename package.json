@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
+    "start": "http-server dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,10 @@
   },
   "homepage": "https://github.com/NikitaKST/import-export#readme",
   "devDependencies": {
+    "babel-loader": "^9.1.3",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "http-server": "^14.1.1",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   }
