@@ -1,0 +1,6 @@
+# Игнорирование папки node_modules
+node_modules/
+
+# Игнорирование файлов вебпак и версий зависимостей
+/webpack.config.js
+/package-lock.json
